@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
 
         AirportCache cache = new AirportCache("airport_cache");
-        Airport airport = cache.get("SNA");
+        Airport airport = cache.get("SYD");
         System.out.println(airport.timezone);
 
     }
